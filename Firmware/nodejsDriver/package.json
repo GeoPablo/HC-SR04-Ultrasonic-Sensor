@@ -1,0 +1,16 @@
+{
+  "name": "nodejsDriver",
+  "version": "1.0.0",
+  "description": "Driver for HC-SR04 Sensor to display distance in cm and inchses",
+  "main": "driver.js",
+  "author": "Georgian Stan",
+  "scripts": {
+    "start": "sudo node driver.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "onoff": "^2.0.0",
+    "sleep": "^5.1.1"
+  }
+}
